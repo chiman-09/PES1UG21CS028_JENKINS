@@ -15,7 +15,7 @@ pipeline {
                     sh './output'
                 }
             }
-            post {
+            post 
                 failure {
                     echo 'Test failed: pipeline failed'
                 }
